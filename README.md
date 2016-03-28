@@ -28,9 +28,24 @@
      
  # Problem
    
-     Work: buletooth WiFi sound LCM(but lcm top have white bar)
+     Work: buletooth WiFi sound LCM
      
-     Bad：Modem (TD)  keypad (volume) imgsensor(camera) accelerometer 
- 
+     Bad：imgsensor(camera) alsps
+
+# History
+
+     Fix:
+     
+     LCM top white
+     
+     modem (TD)
+     
+     keyboard (volune)
+     
+     Add:
+     
+     Zram swap
+     
+     
  
  
