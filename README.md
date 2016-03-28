@@ -2,35 +2,32 @@
 
   # You must have GCC arm-linux-androidabi , please download it .
      
-     after download :
+  after download :
      
      $ export PATH=$PATH:~/[you file path]
      
-     * If your OS is 64 bit ,meybe install  ia32-libs
+     * If your OS is 64 bit ,maybe install  ia32-libs
      
  # Build Command:
  
      ./mk y511 n k
      
-     * in here 
+ or
      
-     mk - shell
+     ./mkboot.sh
      
-     y511 - device name
-     
-     n - new
-  
-     k - kernel
-     
- # Pack boot.img
-    
+If you use  "./mkboot.sh" please eduit it and change your tools path , 
+
+   
+ # Pack boot.img 
+ 
      ./pack_bootimage.sh
      
  # Problem
    
-     Work: buletooth WiFi sound LCM
+     Work: Buletooth WiFi Sound LCM Keypad Touchscreen 
      
-     Bad：imgsensor(camera) alsps
+     Bad：Imgsensor(camera) alsps(reversal)
 
 # History
 
@@ -40,7 +37,7 @@
      
      modem (TD)
      
-     keyboard (volune)
+     keypad (volume)
      
      Add:
      
