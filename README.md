@@ -16,7 +16,7 @@
      
      ./mkboot.sh
      
-If you use  "./mkboot.sh" please eduit it and change your tools path , 
+If you use  "./mkboot.sh" please edit it and change your tools path , 
 
    
  # Pack boot.img 
